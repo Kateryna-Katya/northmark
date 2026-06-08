@@ -1,0 +1,62 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 860px;
+}
+.home-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-title{
+font-family: "Asap Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.1;
+    text-align: center;
+    background: linear-gradient(180deg, #e8e7f5 0%, #e9e068 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home-text{
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #e8e7f5;
+}
+.home-link{
+    margin-top: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f7a13d;
+        border-radius: 12px;
+        width: 240px;
+        height: 64px;
+box-shadow: 0 2px 4px 0 rgba(233, 224, 104, 0.5);
+background: linear-gradient(180deg, #f7a13d 0%, #d97706 100%);
+transition: background 0.3s ease-in-out;
+}
+.home-link:hover{
+    background: linear-gradient(180deg, #f7a13d 0%, #e9e068 100%);
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+    background-image: url("/img/home/desk.png");
+height: 964px;
+}
+.home-wrapper{
+    margin-top: 64px;
+gap: 48px;
+}
+.home-text{
+    margin-top:0;
+font-size: 32px;
+}
+.home-link{
+    margin-top:0;
+}   
+}
