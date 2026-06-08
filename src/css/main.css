@@ -60,3 +60,15 @@ font-size: 32px;
     margin-top:0;
 }   
 }
+/* About the Game */
+.about-container{
+    padding-top: 0;
+}
+.mob {
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.mob{
+    display: block;
+}
+}
