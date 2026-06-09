@@ -13,7 +13,7 @@ function initHowSwiper() {
     if (!howSwiper) {
       howSwiper = new Swiper('.how-swiper', {
         modules: [Autoplay],
-        slidesPerView: 1.2,
+        slidesPerView: 1.17,
         spaceBetween: 16,
         loop: true,
         autoplay: {
